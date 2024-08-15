@@ -38,7 +38,7 @@ $utils = $app->getUtils();
   'getBrandWCPayRequest', {
     timeStamp: "<?= $config['timeStamp'] ?>", //注意 timeStamp 的格式
     nonceStr: "<?= $config['nonceStr'] ?>",
-    package: "?= $config['package'] ?>",
+    package: "<?= $config['package'] ?>",
     signType: "<?= $config['signType'] ?>",
     paySign: "<?= $config['paySign'] ?>", // 支付签名
   },
